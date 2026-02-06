@@ -1,7 +1,9 @@
-import Home from "./pages/Home";
+import Topbar from "./components/Topbar";
 
 export default function App() {
   return (
-    <Home />
+    <div>
+      <Topbar />
+    </div>
   )
 }
